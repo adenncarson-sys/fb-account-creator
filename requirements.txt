@@ -1,0 +1,14 @@
+---
+
+## `requirements.txt`
+
+```txt
+selenium>=4.15.0
+undetected-chromedriver>=3.5.4
+requests>=2.31.0
+faker>=22.0.0
+pyyaml>=6.0
+colorama>=0.4.6
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+pyvirtualdisplay>=3.0
