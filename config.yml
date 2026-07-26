@@ -1,0 +1,28 @@
+# ─── Facebook Account Creator Configuration ──────────────────────────────────
+
+# Email backend: "mail.tm", "guerrilla", or "manual"
+email_backend: "mail.tm"
+
+# CAPTCHA solving service: "2captcha", "anticaptcha", or "manual"
+captcha_service: "manual"
+captcha_api_key: ""
+
+# Proxy support – leave empty for direct connection
+proxy: ""
+# proxy: "socks5://user:pass@127.0.0.1:9050"
+
+# Browser settings
+headless: false
+page_load_timeout: 30
+implicit_wait: 10
+
+# Profile generation defaults
+name_locale: "en_US"
+min_age: 18
+max_age: 65
+
+# Verification wait (seconds) to poll for confirmation email
+verification_wait: 30
+
+# Output
+output_file: "accounts/created_accounts.csv"
